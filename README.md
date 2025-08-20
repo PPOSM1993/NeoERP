@@ -1,16 +1,35 @@
 # NeoERP
 
 **NeoERP** es un ERP moderno fullstack construido con **MERN** (MongoDB, Express, React, Node.js), **Zustand** para estado global, **Atomic Design** para componentes, **TanStack Query** para fetch/caching de datos y **TailwindCSS** para estilos.  
-Está pensado para la gestión completa de clientes, productos, órdenes de trabajo/ventas y dashboard administrativo.
+Está pensado para la gestión completa de clientes, productos, órdenes de trabajo/ventas y dashboard administrativo, con roles y control de permisos.
 
 ---
 
 ## 🛠 Tecnologías y herramientas
 
-- **Frontend:** React, Vite, TailwindCSS, Zustand, TanStack Query, React Router
-- **Backend:** Node.js, Express, MongoDB, Mongoose, JWT, Bcrypt
-- **Deploy:** Vercel (frontend) / Railway o Vercel Functions (backend)
-- **Otras herramientas:** ESLint, Prettier, dotenv
+### Frontend
+- React + Vite
+- TailwindCSS
+- Zustand (estado global)
+- TanStack Query (fetching y caching)
+- React Router (navegación)
+- React Hook Form (formularios)
+
+### Backend
+- Node.js + Express
+- MongoDB + Mongoose
+- JWT (autenticación)
+- Bcrypt (hash de contraseñas)
+- Cors y dotenv
+
+### Deploy
+- Vercel (frontend)
+- Railway o Vercel Functions (backend)
+
+### Desarrollo
+- ESLint, Prettier
+- Git + GitHub
+- Postman / Thunder Client
 
 ---
 
@@ -30,22 +49,20 @@ Está pensado para la gestión completa de clientes, productos, órdenes de trab
 
 ## 📂 Estructura del proyecto
 
-### Backend (`backend`)
+### Backend (`neoerp-backend`)
+<img width="402" height="259" alt="image" src="https://github.com/user-attachments/assets/227e1404-b9c5-4fbe-bace-2f92ce4ce5fb" />
 
-<img width="153" height="293" alt="image" src="https://github.com/user-attachments/assets/c52b8799-58cf-4b5c-997d-ea08026fdff8" />
 
----
+### Frontend (`neoerp-frontend`)
+<img width="439" height="482" alt="image" src="https://github.com/user-attachments/assets/a35817a3-7d9c-4f48-9895-31c27fc46b86" />
 
-### Frontend (`frontend`)
-
-<img width="176" height="511" alt="image" src="https://github.com/user-attachments/assets/fe307b6b-4273-4177-b2a2-dc6f14d7624f" />
 
 ---
 
 ## 🚀 Instalación y uso
 
 ### Backend
-```bas
+```bash
 cd neoerp-backend
 npm install
 cp .env.example .env
@@ -60,3 +77,25 @@ npm run dev
 cd neoerp-frontend
 npm install
 npm run dev
+```
+
+## 🧩 Scripts útiles
+
+Backend
+
+```bas
+| Script        | Descripción                                        |
+| ------------- | -------------------------------------------------- |
+| `npm run dev` | Ejecuta el servidor en modo desarrollo con nodemon |
+| `npm start`   | Ejecuta el servidor en producción                  |
+| `npm test`    | Ejecuta pruebas unitarias (si se agregan)          |
+```
+
+Frontend
+```bas
+| Script            | Descripción                             |
+| ----------------- | --------------------------------------- |
+| `npm run dev`     | Ejecuta Vite en modo desarrollo         |
+| `npm run build`   | Genera build optimizado para producción |
+| `npm run preview` | Previsualiza el build de producción     |
+```
