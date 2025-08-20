@@ -34,5 +34,6 @@ Está pensado para la gestión completa de clientes, productos, órdenes de trab
 
 <img width="153" height="293" alt="image" src="https://github.com/user-attachments/assets/c52b8799-58cf-4b5c-997d-ea08026fdff8" />
 
+---
 
 ### Frontend (`neoerp-frontend`)
