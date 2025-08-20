@@ -42,9 +42,6 @@ Está pensado para la gestión completa de clientes, productos, órdenes de trab
 
 ---
 
-
----
-
 ## 🚀 Instalación y uso
 
 ### Backend
