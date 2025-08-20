@@ -30,13 +30,13 @@ Está pensado para la gestión completa de clientes, productos, órdenes de trab
 
 ## 📂 Estructura del proyecto
 
-### Backend (`neoerp-backend`)
+### Backend (`backend`)
 
 <img width="153" height="293" alt="image" src="https://github.com/user-attachments/assets/c52b8799-58cf-4b5c-997d-ea08026fdff8" />
 
 ---
 
-### Frontend (`neoerp-frontend`)
+### Frontend (`frontend`)
 
 <img width="176" height="511" alt="image" src="https://github.com/user-attachments/assets/fe307b6b-4273-4177-b2a2-dc6f14d7624f" />
 
