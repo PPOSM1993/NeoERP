@@ -54,6 +54,12 @@ npm install
 cp .env.example .env
 # Configurar variables: MONGO_URI, JWT_SECRET, PORT
 npm run dev
+```
 
+---
 
-
+### Frontend
+```bas
+cd neoerp-frontend
+npm install
+npm run dev
