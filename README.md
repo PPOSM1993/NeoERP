@@ -37,3 +37,23 @@ Está pensado para la gestión completa de clientes, productos, órdenes de trab
 ---
 
 ### Frontend (`neoerp-frontend`)
+
+<img width="176" height="511" alt="image" src="https://github.com/user-attachments/assets/fe307b6b-4273-4177-b2a2-dc6f14d7624f" />
+
+---
+
+
+---
+
+## 🚀 Instalación y uso
+
+### Backend
+```bas
+cd neoerp-backend
+npm install
+cp .env.example .env
+# Configurar variables: MONGO_URI, JWT_SECRET, PORT
+npm run dev
+
+
+
