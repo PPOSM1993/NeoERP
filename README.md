@@ -117,10 +117,10 @@ Frontend
 
 ```bas
 Frontend (React) <---> Backend (Express + Node.js) <---> MongoDB
-     |                        |                         |
+     |                         |                         |
      |---TanStack Query--------|                         |
      |---Zustand State----------                         |
-     |---Atomic Components----------------------------->|
+     |---Atomic Components------------------------------>|
 ```
 ---
 
@@ -132,3 +132,17 @@ Frontend (React) <---> Backend (Express + Node.js) <---> MongoDB
 - Añadir reportes exportables (PDF/Excel)
 - Optimizar rendimiento y seguridad
 - Desplegar en producción con Vercel / Railway
+
+---
+
+# 📜 Licencia
+
+- NeoERP es open-source. Puedes usar, modificar y distribuir libremente el código bajo tu responsabilidad.
+
+---
+
+## 👨‍💻 Contacto
+
+- Desarrollador: Pedro Osorio
+- Email: pedro@example.com
+- GitHub: github.com/pedroosorio
